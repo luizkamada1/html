@@ -1,23 +1,35 @@
 <!-- Este é um comentário em HTML. -->
-<!DOCTYPE HTML> <!-- Este é o DTD do HTML 5. -->
+<!DOCTYPE html>
+<!-- Este é o DTD do HTML 5. -->
 
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Exemplo Básico HTML</title>
-	</head>
-	<body>
-		<h1>Cabeçalho-1</h1>
-		<p>Utilizando a apostila do GITHUB a partir da página 26, faça:
-1 - Crie um arquivo de nome README.md
-2 - Adicione, informações sobre você neste arquivo.
-3 - Edite o arquivo utilizando a linguagem de marcação MARK DOWN.
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo Básico HTML</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="cabecalho">
+        <h1 style="text-align: center; border: solid 2px #ff0000">
+          Minha Página
+        </h1>
 
-Utilize como base de referência o seguinte site:
-https://dillinger.io/
-</p>
-	</body>
+        <nav>
+          <!-- Unordered List-->
+          <ul>
+            <!-- List Item-->
+            <li><a href="https://www2.fiap.com.br" target="_blank">FIAP</a></li>
+            <li>
+              <a href="https://www.google.com.br" target="_blank">GOOGLE</a>
+            </li>
+            <li><a href="https://github.com" target="_blank">Github</a></li>
+            <!-- List Item-->
+          </ul>
+        </nav>
+      </header>
+
+      <!-- header>nav>ul>li*3>a[href="#"]{Item - $} -->
+    </div>
+  </body>
 </html>
-
-
