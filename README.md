@@ -1,6 +1,4 @@
 # FRONT-END DESIGN ENGINEERING
 
-## _Prof.Alexandre Carlos_
-
-- github : alecarlosjesus
+- github : luizkamada1
 - Instituição de Ensino : FIAP
