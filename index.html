@@ -9,6 +9,7 @@
     <title>Página Básica</title>
   </head>
   <body>
+    <span id="topo"></span>
     <div class="container">
       <header class="cabecalho">
         <h1 style="text-align: center; border: solid 2px #ff0000">
@@ -17,9 +18,9 @@
 
         <nav>
           <ul>
-            <li> <a href="./paginas/help.html">  <img src="./img/icons8-ajuda-50.png" alt="Interrogação" width="5%"> </a> </li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li> <a href="./paginas/help.html"><img src="./img/question.png" alt="Interrogação" width="5%"> </a> </li>
+            <li><a href="./paginas/about.html"> <img src="./img/info.png" alt="Letra i dentro de um círculo" width="5%"> </a></li>
+            <li><a href="#contact"><img src="./img/contact.png" alt="Envelope com cartas." width="5%"></a></li>
           </ul>
         </nav>
       
@@ -28,7 +29,7 @@
       <section class="conteudo">
         <div>
           <h2>HELP</h2>
-          <p>Help - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa velit error vero asperiores ducimus veniam doloremque? Voluptates earum natus ex, doloremque vero in porro provident voluptatum cupiditate, quibusdam, officiis modi maxime quas dignissimos. Velit quae repellendus magnam nobis commodi adipisci itaque harum quos amet repellat laboriosam, voluptate eos nulla fuga perspiciatis quidem beatae sapiente pariatur maiores? Asperiores totam voluptatum error consequuntur et quisquam architecto! Officiis eius tempora animi! Saepe, alias fuga, ex possimus ipsum distinctio maxime porro doloribus officiis, quidem labore animi! Fugit placeat autem harum suscipit quasi perferendis, quam vero molestias! Sequi corporis ipsa repellat? Et consectetur ducimus tempora.</p>
+          <p>Help - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa velit error vero asperiores ducimus veniam doloremque? Voluptates earum natus ex, doloremque vero in porro provident voluptatum cupiditate, quibusdam, officiis modi maxime quas dignissimos. Velit quae repellendus magnam nobis commodi adipisci itaque harum quos amet repellat laboriosam, voluptate eos nulla fuga perspiciatis quidem beatae sapiente pariatur maiores? Asperiores totam voluptatum error consequuntur et quisquam architecto! Officiis eius tempora animi! Saepe, alias fuga, ex possimus ipsum distinctio maxime porro doloribus officiis, quidem labore animi! Fugit placeat autem harum suscipit quasi perferendis, quam vero molestias! Sequi corporis ipsa repellat? Et consectetur ducimus tempora. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit facere perferendis accusamus ab aut incidunt sunt architecto exercitationem nesciunt molestiae tempore cupiditate corporis quisquam vel magnam maxime aperiam obcaecati iste, accusantium dolorum ipsa fuga ullam qui numquam? Officia quia eaque consequuntur.</p>
           <a href="#">Mais...</a>
         </div>
         <div>
@@ -36,7 +37,7 @@
           <p>About - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur sequi fugiat provident repellat aliquam! Qui optio voluptatibus facilis voluptas soluta!</p>
           <a href="#">Mais...</a>
         </div>
-        <div>
+        <div id="contact">
           <h2>CONTACT</h2>
           <form>
             <fieldset>
@@ -53,6 +54,7 @@
                 <button type="button">Send</button>
               </div>
             </fieldset>
+            <a href="#topo">Voltar</a>
           </form>
         </div>
       </section>
